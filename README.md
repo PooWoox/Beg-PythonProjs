@@ -3,4 +3,6 @@ A repository for simple and small Python projects I'm beginning with. I'm defini
 
 1st is a simple "Guess the Number" game. A random number between 1 and 20 is generated and the user guesses on the input. The program will inform the user when the number guessed is either too high or too low.
 
+2nd is a "Rock, Paper and Scissors' game. PC makes its choice and the user chooses on input by typing 'rock', 'paper' or 'scissors'. Program recognizes ties, wins and losses. Winning adds 1 score to player and losing adds 1 to PC score, both situations offers the player the option to continue playing or not.
+
 All project files are on the repository.
