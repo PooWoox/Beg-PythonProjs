@@ -5,4 +5,6 @@ A repository for simple and small Python projects I'm beginning with. I'm defini
 
 2nd is a "Rock, Paper and Scissors' game. PC makes its choice and the user chooses on input by typing 'rock', 'paper' or 'scissors'. Program recognizes ties, wins and losses. Winning adds 1 score to player and losing adds 1 to PC score, both situations offers the player the option to continue playing or not.
 
+3rd one is a simple login system linked to Google Sheets as a data base. This one has its own repository on my profile with a README file explaining how it works.
+
 All project files are on the repository.
