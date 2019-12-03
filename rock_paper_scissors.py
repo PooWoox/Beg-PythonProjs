@@ -10,7 +10,9 @@ player_score = 0
 def plagain():
     proceed = input('Wish to continue (Y/N)? ')
     if proceed == 'N':
-        play_again = 'No'
+        return 'No'
+    else:
+        return 'Yes'
 
 
 while play_again != 'No':
@@ -31,12 +33,12 @@ while play_again != 'No':
         print('PC picked paper and won this round! +1 score to it.')
         pc_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
     elif player_choice == 'rock' and pc_choice == 'scissors':
         print('PC picked scissors, you won this round!')
         player_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
 
     elif player_choice == 'paper' and pc_choice == 'paper':
         print('PC chose paper, go again!')
@@ -45,12 +47,12 @@ while play_again != 'No':
         print('PC picked scissors and won this round! +1 score to it.')
         pc_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
     elif player_choice == 'paper' and pc_choice == 'rock':
         print('PC picked rock, you won this round!')
         player_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
 
     elif player_choice == 'scissors' and pc_choice == 'scissors':
         print('PC chose scissors, go again!')
@@ -59,12 +61,12 @@ while play_again != 'No':
         print('PC picked rock and won this round! +1 score to it.')
         pc_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
     elif player_choice == 'scissors' and pc_choice == 'paper':
         print('PC picked paper, you won this round!')
         player_score += 1
         print('PC: ', pc_score, 'You: ', player_score)
-        plagain()
+        play_again = plagain()
 
     elif player_choice not in choices:
         print('Please type \'rock\', \'paper\' or \'scissor\'')
