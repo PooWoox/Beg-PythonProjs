@@ -7,4 +7,6 @@ A repository for simple and small Python projects I'm beginning with. I'm defini
 
 3rd one is a simple login system linked to Google Sheets as a data base. This one has its own repository on my profile with a README file explaining how it works.
 
+4th is a To do list web application using Flask, wtforms and SQLAlchemy. Still in development, will add a README file on it's folder with all the explanation once I'm done.
+
 All project files are on the repository.
