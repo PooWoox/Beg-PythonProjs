@@ -27,14 +27,15 @@ class TaskForm(FlaskForm):
 @app.route('/home', methods=('GET', 'POST'))
 def home():
 	form = TaskForm()
+	tasks = Tasks.query.all()
 	if form.validate_on_submit():
 		task = Tasks(task=form.task.data)
 		db.session.add(task)
 		db.session.commit()
-		flash('Task created successfully!')
+		flash('Task created successfully!', 'success')
 	else:
 		flash('Task was not created with success.', 'danger')
-	return render_template('home.html')
+	return render_template('home.html', form=form, tasks=tasks)
 
 if __name__ == '__main__':
 	app.run(debug=True)
