@@ -9,4 +9,6 @@ A repository for simple and small Python projects I'm beginning with. I'm defini
 
 4th is a To do list web application using Flask, wtforms and SQLAlchemy. Still in development, will add a README file on it's folder with all the explanation once I'm done.
 
+5th is a quiz about brazillian state capitals. The user has 3 chances to get all of them correct. Input has to be written exactly how the city is named, with capital letters on the beginning. Once the user gets a correct answer, +1 score is added and this state is removed from the list so it wont be repeated. Game ends when the user has no chances left or the score is maxed (26).
+
 All project files are on the repository.
