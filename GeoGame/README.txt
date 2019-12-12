@@ -1,4 +1,4 @@
-# GeoGame 1.0v
+GeoGame 1.0v
 - Esse é um jogo simples estilo quiz. Inicialmente apenas com perguntas das capitais dos estados brasileiros.
 - O sistema pesquisará a sigla aleatória de um estado em uma lista com estados e capitais.
 - Para computar o acerto ou erro, o sistema comparará o input do usuário com o respectivo valor de capital do estado selecionado.
